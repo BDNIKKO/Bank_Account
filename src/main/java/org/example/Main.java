@@ -1,3 +1,5 @@
+package org.example;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -60,7 +62,7 @@ public class Main {
 
         while (true) {
             System.out.println("Hello " + account.getAccountHolderName() + "!");
-            System.out.println("Welcome to the Main Menu, what would you like to do today?");
+            System.out.println("Welcome to the org.example.Main Menu, what would you like to do today?");
             System.out.println("1. To check account balance");
             System.out.println("2. To make a withdrawal");
             System.out.println("3. To make a deposit");
